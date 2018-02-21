@@ -10,6 +10,9 @@ call minpac#add('scrooloose/nerdtree')
 call minpac#add('vim-ruby/vim-ruby')
 call minpac#add('tpope/vim-bundler')
 call minpac#add('skalnik/vim-vroom')
+call minpac#add('pangloss/vim-javascript')
+call minpac#add('mxw/vim-jsx')
+call minpac#add('mattn/emmet-vim')
 
 set nocompatible
 syntax enable
