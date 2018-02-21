@@ -34,3 +34,8 @@ set number
 
 command! PackUpdate call minpac#update()
 command! PackClean call minpac#clean()
+
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
