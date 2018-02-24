@@ -20,6 +20,12 @@ set encoding=utf-8
 set showcmd
 filetype plugin indent on
 
+colorscheme dracula
+
+let mapleader=","
+
+nnoremap <leader>ne :NERDTreeToggle<CR>
+
 set nowrap
 set tabstop=2 shiftwidth=2
 set expandtab
@@ -30,7 +36,7 @@ set incsearch
 set ignorecase
 set smartcase
 
-set number
+set number relativenumber
 
 command! PackUpdate call minpac#update()
 command! PackClean call minpac#clean()
