@@ -20,8 +20,6 @@ set encoding=utf-8
 set showcmd
 filetype plugin indent on
 
-colorscheme dracula
-
 let mapleader=","
 
 nnoremap <leader>ne :NERDTreeToggle<CR>
