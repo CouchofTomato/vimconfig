@@ -34,6 +34,9 @@ set incsearch
 set ignorecase
 set smartcase
 
+set list
+set listchars=tab:>\ ,eol:¬,trail:·
+
 set number relativenumber
 
 command! PackUpdate call minpac#update()
