@@ -14,14 +14,23 @@ call minpac#add('pangloss/vim-javascript')
 call minpac#add('mxw/vim-jsx')
 call minpac#add('mattn/emmet-vim')
 call minpac#add('w0rp/ale')
+call minpac#add('MarcWeber/vim-addon-mw-utils')
+call minpac#add('tomtom/tlib_vim')
+call minpac#add('honza/vim-snippets')
+call minpac#add('garbas/vim-snipmate')
+call minpac#add('tpope/vim-surround')
+call minpac#add('jiangmiao/auto-pairs')
+call minpac#add('ervandew/supertab')
+call minpac#add('kien/ctrlp.vim')
 
 set nocompatible
-syntax enable
+syntax on
 set encoding=utf-8
 set showcmd
 filetype plugin indent on
 
 let mapleader=","
+set autoindent
 
 nnoremap <leader>ne :NERDTreeToggle<CR>
 
@@ -34,6 +43,10 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
+nmap <Leader><CR> :nohlsearch<cr>
+
+set wildmode=list:longest,list:full
+set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*
 
 set list
 set listchars=tab:>\ ,eol:¬,trail:·
