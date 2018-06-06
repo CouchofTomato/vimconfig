@@ -22,6 +22,8 @@ call minpac#add('tpope/vim-surround')
 call minpac#add('jiangmiao/auto-pairs')
 call minpac#add('ervandew/supertab')
 call minpac#add('kien/ctrlp.vim')
+call minpac#add('godlygeek/tabular')
+call minpac#add('plasticboy/vim-markdown')
 
 set nocompatible
 syntax on
@@ -60,3 +62,5 @@ nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
+
+let g:vim_markdown_folding_disabled = 1
