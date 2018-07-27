@@ -24,6 +24,7 @@ call minpac#add('ervandew/supertab')
 call minpac#add('kien/ctrlp.vim')
 call minpac#add('godlygeek/tabular')
 call minpac#add('plasticboy/vim-markdown')
+call minpac#add('elixir-editors/vim-elixir')
 
 set nocompatible
 syntax on
