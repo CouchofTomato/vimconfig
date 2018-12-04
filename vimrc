@@ -36,6 +36,8 @@ let mapleader=","
 set autoindent
 
 nnoremap <leader>ne :NERDTreeToggle<CR>
+map <leader>vi :tabedit $MYVIMRC<cr>
+nmap <leader>so :source $MYVIMRC<cr>
 
 set nowrap
 set tabstop=2 shiftwidth=2
@@ -55,6 +57,8 @@ set list
 set listchars=tab:>\ ,eol:¬,trail:·
 
 set number relativenumber
+
+set scrolloff=4          " Keep at least four lines below cursor"
 
 command! PackUpdate call minpac#update()
 command! PackClean call minpac#clean()
