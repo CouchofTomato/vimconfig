@@ -32,6 +32,8 @@ set encoding=utf-8
 set showcmd
 filetype plugin indent on
 
+autocmd BufNewFile,BufRead *.axlsx set syntax=ruby
+
 let mapleader=","
 set autoindent
 
