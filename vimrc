@@ -25,6 +25,8 @@ call minpac#add('kien/ctrlp.vim')
 call minpac#add('godlygeek/tabular')
 call minpac#add('plasticboy/vim-markdown')
 call minpac#add('elixir-editors/vim-elixir')
+call minpac#add('christoomey/vim-tmux-navigator')
+call minpac#add('christoomey/vim-tmux-runner')
 
 set nocompatible
 syntax on
@@ -33,9 +35,13 @@ set showcmd
 filetype plugin indent on
 
 autocmd BufNewFile,BufRead *.axlsx set syntax=ruby
+autocmd VimResized * :wincmd =
 
 let mapleader=","
 set autoindent
+
+nnoremap <leader>- :wincmd _<cr>:wincmd \|<cr>
+nnoremap <leader>= :wincmd =<cr>
 
 nnoremap <leader>ne :NERDTreeToggle<CR>
 map <leader>vi :tabedit $MYVIMRC<cr>
