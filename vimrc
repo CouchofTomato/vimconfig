@@ -27,6 +27,7 @@ call minpac#add('plasticboy/vim-markdown')
 call minpac#add('elixir-editors/vim-elixir')
 call minpac#add('christoomey/vim-tmux-navigator')
 call minpac#add('christoomey/vim-tmux-runner')
+call minpac#add('tpope/vim-dispatch')
 
 set nocompatible
 syntax on
