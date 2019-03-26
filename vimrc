@@ -81,5 +81,5 @@ let g:vim_markdown_folding_disabled = 1
 
 "-- EMMET CONFIG ==
 "redefine trigger key
-let g:user_emmet_leader_key=","
+let g:user_emmet_leader_key="<C-y>"
 inoremap <leader><CR> <CR><C-o>==<C-o>O
