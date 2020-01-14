@@ -28,9 +28,11 @@ call minpac#add('elixir-editors/vim-elixir')
 call minpac#add('christoomey/vim-tmux-navigator')
 call minpac#add('christoomey/vim-tmux-runner')
 call minpac#add('tpope/vim-dispatch')
+call minpac#add('gosukiwi/vim-atom-dark')
 
 set nocompatible
 syntax on
+colorscheme atom-dark-256
 set encoding=utf-8
 set showcmd
 filetype plugin indent on
