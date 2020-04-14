@@ -50,7 +50,7 @@ nnoremap <leader>ne :NERDTreeToggle<CR>
 map <leader>vi :tabedit $MYVIMRC<cr>
 nmap <leader>so :source $MYVIMRC<cr>
 
-set nowrap
+set wrap linebreak nolist
 set tabstop=2 shiftwidth=2
 set expandtab
 set backspace=indent,eol,start
