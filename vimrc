@@ -38,6 +38,8 @@ set encoding=utf-8
 set showcmd
 filetype plugin indent on
 
+let g:snipMate = { 'snippet_version' : 1 }
+
 autocmd BufNewFile,BufRead *.axlsx set syntax=ruby
 autocmd VimResized * :wincmd =
 
