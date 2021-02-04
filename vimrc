@@ -29,6 +29,7 @@ call minpac#add('christoomey/vim-tmux-navigator')
 call minpac#add('christoomey/vim-tmux-runner')
 call minpac#add('tpope/vim-dispatch')
 call minpac#add('gosukiwi/vim-atom-dark')
+call minpac#add('junegunn/fzf')
 
 set nocompatible
 syntax on
