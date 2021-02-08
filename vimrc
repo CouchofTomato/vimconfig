@@ -30,6 +30,7 @@ call minpac#add('christoomey/vim-tmux-runner')
 call minpac#add('tpope/vim-dispatch')
 call minpac#add('gosukiwi/vim-atom-dark')
 call minpac#add('junegunn/fzf')
+call minpac#add('junegunn/fzf.vim')
 
 set nocompatible
 syntax on
@@ -43,7 +44,7 @@ let g:snipMate = { 'snippet_version' : 1 }
 autocmd BufNewFile,BufRead *.axlsx set syntax=ruby
 autocmd VimResized * :wincmd =
 
-let mapleader=","
+let mapleader="\\"
 set autoindent
 
 nnoremap <leader>- :wincmd _<cr>:wincmd \|<cr>
