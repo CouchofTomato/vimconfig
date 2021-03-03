@@ -85,6 +85,8 @@ nnoremap <c-l> <c-w>l
 
 let g:vim_markdown_folding_disabled = 1
 
+nmap <C-P> :FZF<CR>
+
 "-- EMMET CONFIG ==
 "redefine trigger key
 let g:user_emmet_leader_key="<C-y>"
